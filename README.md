@@ -1,7 +1,13 @@
 # Getting Started with Create React App
+List of technologies
+Html ,Css , JavaScript ,ReactJs , Firebase, Material UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+About this project 
+It's a social media project is build  by me for learning purpose. Where the key goal was learning to build a professional application.
+ Contact :
+ Name : Rajesh  ,
+ Contact  Number :+91 888 5444 898 ,
+ email : rajesh.geesala8885@gmail.com
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,0 +1,9 @@
+p {
+    margin-bottom: 20px;
+}
+.icon:hover {
+    background-color: #c4d3e2;
+    border-radius: 5px;
+    padding : 10px;
+    transition:  100ms ease-out;
+} 

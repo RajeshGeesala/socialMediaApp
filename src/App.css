@@ -1,38 +1,184 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height:  100vh;
+  
 }
-
+.body {
+  background-color: #babbbc;
+}
+.signInBtn {
+  color: rgb(26, 181, 242);
+  margin: 20px;
+  font-weight: 6000;
+  text-decoration: none;
+} 
+.signup-container {
+   
+  height: 100vh;
+}  
+.signIN {
+  background-color: #61dafb;
+}
+.google {
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+  margin-bottom: 8px;
+}
+.signUp{
+    margin-left: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-info {
+  font-weight: 600;
+  margin-left: 180px;
+} 
+.already {margin-left: 120px;}
+.signup-container {height: 100vh;   }
+.image-containers , .image-containerL {
+  margin-top: 50px;
 }
+.SignupForm-container , .image-containers , .image-containerL , .login-form-container {
+  padding-left: 100px;
+  padding-right: 100px;
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.sidebar {
+  position: fixed;
+  margin-top: 60px;
+  overflow-y: scroll;
+  height: 100vh;
+  text-align: center;
+}
+.sidebar::-webkit-scrollbar {
+   display: none; 
+}
+.feed::-webkit-scrollbar {
+  display: none; 
+}
+.feed {
+   -ms-overflow-style: none; 
+   overflow: scroll;
+   /* background-color: #61dafb; */
+   min-width: fit-content;
+    height: 100vh;
+    border: 1px solid grey;
+}
+.feed-header {
+  position: sticky;
+  top :0 ;
+  padding: 15px 20px;
+  background-color: rgb(37, 37, 35) ; 
+  color : white ;
+  border-radius: 15px;}
+.form-control {
+  display: inline;
 }
 
-.App-link {
-  color: #61dafb;
+.feed-heading {
+  display: inline;
+}
+.feed-header-icon {
+  margin-left: 400px;
+}
+.tweet-form {
+  border-bottom: 8px solid rgb(242, 237, 237); 
+   border: 1px solid grey;
+    border-radius: 10px;
+}
+.feed-header-icon:hover  {  background-color: #babbbc;
+  border-radius: 2px;
+  padding : 6px;
+  transition:  100ms ease-out;}
+  .postB {  background-color:rgb(17, 17, 16) ;
+    color: aliceblue;   padding: 5px 20px;}
+   .postB:hover {  background-color: #babbbc;}
+
+ .tbc { display: flex; height: 50px; margin-top: 20px;} 
+ .twitterinbox {
+    width: 100%;
+    border: none;
+  }
+  .avatar { height: 70px;}
+  .iconP{
+    margin: 0px 30px;
+  }
+  .post-footer {
+    background-color:rgb(226, 222, 222) ;
+    border-radius: 10px;
+  }
+  .post-content {
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .post:hover {
+      border: 1px solid grey;  background-color: #caced2; transition: 300ms ease-in-out;
+  }
+  .post-header {
+    display: flex;
+  }
+  .time {  margin-left: 200px;} ;
+.ww {
+    position: fixed; background-color: #61dafb; height: 100vh;
+}
+  
+  .widgetSearch {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+ .search {
+  margin-right: 9px;
+ }
+ .inputSearch {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 20px; 
+  border-radius: 5px;
+ }
+ .premium {
+  margin-top: 20px;
+  background-color: #e5e8eb;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding:5px ; border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ } 
+ .sButton {
+  display: block;
+   border-radius: 20px;
+   margin-top: 3px;
+ }
+ .whatHappen {
+  margin-top: 20px;
+  background-color: #e5e8eb;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow-y: scroll;
+  height: 320px;
+  padding:5px ; border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+  
+.wid {
+        width: 320px;
+    position: fixed ;
+    overflow-y: scroll;
+    height: 100vh;  
+    border-radius: 20px; 
+} 
+.wid::-webkit-scrollbar {
+  display: none; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
